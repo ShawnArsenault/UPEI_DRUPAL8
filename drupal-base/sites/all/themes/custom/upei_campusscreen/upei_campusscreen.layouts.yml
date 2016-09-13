@@ -1,0 +1,18 @@
+upei_layout_screens:
+  label: Campus Screen
+  category: UPEI Layouts
+  template: layouts/upei-layout-screens
+  css: css/campusscreen.css
+  regions:
+    logo:
+      label: Logo Area
+    time:
+      label: Time Area
+    name:
+      label: Page Title
+    slideshow:
+      label: Slideshow Area
+    sidebar:
+      label: Sidebar
+    bottom:
+      label: Bottom 

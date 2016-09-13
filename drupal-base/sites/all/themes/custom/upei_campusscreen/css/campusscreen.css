@@ -1,0 +1,62 @@
+body{padding:1.5vw;}
+header{display:none;}
+
+#block-upei-campusscreen-page-title{display:none;}
+#block-upei-campusscreen-content{font-family:Open Sans;overflow:hidden;}
+.screen-header{overflow:hidden;margin-bottom:20px;border:1px solid black;border-width:0px 0px 0px 0px;}
+.screen-header .logo{width:19%;float:left;}
+#block-upei-campusscreen-content .logo img{width:15vw;display:block;}
+.screen-header .titlename{width:56%;display:inline-block;margin:0px auto;font-size:1.3vw;color:#8c2004;}
+.screen-header .titlename h1{margin:2.2vw 0px 0px 0px;padding:0px;}
+
+.screen-header .time{width:25%;float:right;font-size:1.2vw;text-align:right;}
+
+#time{font-size:2.6vw;font-weight:bold;}
+#mydate{font-size:1.6vw;}
+
+.screen-content{overflow:hidden;}
+.screen-content .slideshow{width:74%;float:left;}
+.screen-content .slideshow img{max-width:100%;height:auto;}
+
+.screen-content .sidebar{width:25%;float:right;}
+#main_button{width:100% !important}
+.current-weather{text-align:center;
+-ms-transform: scale(1.5, 1.5); /* IE 9 */
+    -webkit-transform: scale(1.5, 1.5); /* Safari */
+    transform: scale(1.5, 1.5);
+}
+.current-weather img{display:block;float:left;}
+div[role=contentinfo]{display:none}
+
+.sideevents #block-upei-campusscreen-page-title{display:static}
+.sidebar h2{font-size:1.0vw;margin:0px;padding:0px;border:1px solid #000;border-width:1px 0px 1px 0px;margin-bottom:10px;padding:6px;}
+.sideevents{width:100%;overflow:hidden;}
+.sideevents .views-row{overflow:hidden;width:100%;padding-left:6px;}
+.sideevents .views-row + .views-row{border-top:1px dotted #cccccc;padding-top:11px;}
+.sideevents .views-field-title{font-size:1.0vw;font-weight:600}
+.sideevents .views-field-field-date-3{font-size:0.8vw;}
+#views_slideshow_cycle_div_news-block_2_1{width:100% !important;}
+
+.datesquare{width:25%;float:right;overflow:hidden;margin-left:20px;border:0px solid black}
+.dteDate{font-size:2.2vw;margin-right:5px;font-weight:bold;float:left;text-align:right;color:#bbbbbb;text-align:right;height:60px;line-height:1.0em;}
+.dteDate .date-display-single{padding-bottom:20px;}
+/*.ie .dteDate{line-height:1.0em;margin-top:0px;}*/
+.dteMonth{float:right;width:50%;font-size:0.9vw;color:#333333;text-align:left}
+.dteDay{float:right;width:50%;font-size:0.9vw;color:#333333;text-align:left}
+/*
+.screen-bottom{background-color:#333333;color:#cccccc;padding:20px;font-size:1.2vw;}
+*/
+.screen-bottom{padding:20px;font-size:1.2vw;border:1px solid #000;padding:10px 10px 10px 8vw;}
+.bottomnews .views-field-title{font-weight:bold;}
+.views_slideshow_cycle_teaser_section,.views_slideshow_cycle_slide{width:auto !important;}
+.current-weather-block-content{overflow:hidden;}
+.current-weather-block-content img{float:left;}
+.current-weather-summary{float:left;margin-left:10px;margin-left:0.5vw;padding-left:0px;font-size:1.0vw;}
+.current-weather-summary li{display:inline;}
+.current-weather-summary li + li{margin-left:0.5vw;padding-left:0.5vw;border-left:1px solid #ccc;}
+.current-weather-block-content img{width:4.0vw;}
+
+.block-region-sidebar table td{width:33%;text-align:center;line-height:0.9em;font-size:0.9vw;}
+.block-region-sidebar table th{padding:0px 1.5vw;font-size:0.9vw;}
+.block-region-sidebar table img{display:block;margin:0px auto;}
+

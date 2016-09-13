@@ -1,0 +1,46 @@
+body{margin:0px;padding:0px;
+color: #333;
+    font-family:Open Sans;
+background-image:url(https://www.ucdavis.edu/sites/all/themes/ucd_one/images/gunrock-linework.svg);
+background-color:#e5e9ef;
+}
+
+header{background: url(https://www.ucdavis.edu/sites/all/themes/ucd_one/images/global-header-bg.svg) center top/cover no-repeat;padding:2vw 0px;}
+header img{display:block;height:2.0vw;margin:0vw 5vw;}
+
+nav{padding:1.4vw 0px;overflow:hidden;
+background-color: #fff;
+    box-shadow: 0 2px 1px rgba(0,40,85,0.15);
+    text-align:center;
+}
+nav ul{margin:0px;text-align:center;}
+nav ul li{display:inline-block;text-transform:uppercase;font-weight:900;}
+nav ul li + li{margin-left:3em;}
+nav ul li a{text-decoration:none;}
+
+p{margin:0px;}
+p+p{margin-bottom:20px;}
+#full-width-media{background-color:#fff;}
+#full-width-info{background-color:#fff}
+.views-view-grid{overflow:hidden;padding:10px 0px;}
+.views-view-grid .views-col{float:left;text-align:center;}
+.views-view-grid .views-field-field-image{width:100px;height:85px;border:6px solid #cccccc;border-radius:100px;margin:0px auto;padding-top:15px;transition: all .2s ease-in-out;}
+.views-view-grid .views-field-field-image:hover{transform: scale(1.1);border-color:blue;}
+.views-view-grid .views-field-title{margin-top:10px;}
+.views-view-grid .views-col + .views-col{}
+.views-view-grid .views-col a{text-decoration:none;text-transform:uppercase;letter-spacing:0.1em;font-weight:bold;}
+
+.region_top{margin:2vw 5vw;overflow:hidden;}
+.region_top .top-sidebar-left{width:32.33%;margin-right:1%;float:left;}
+.region_top .top-sidebar-right{width:66%;float:right;}
+
+#block-trending{background-color:#fff;padding:10px;}
+#block-events{background-color:#fff;padding:10px;margin-top:1.2vw;}
+
+#block-reasons img{width:100% !important}
+
+#block-ranks{margin-top:1.2vw;}
+#block-ranks table{width:100%}
+#block-ranks td{text-align:center;font-weight:bold;color:#000065;}
+#block-ranks img{transition: all .2s ease-in-out;transform: scale(0.9);}
+#block-ranks img:hover{transform: scale(1.0);}

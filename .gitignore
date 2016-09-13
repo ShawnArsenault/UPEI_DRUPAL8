@@ -45,3 +45,18 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#SymLinks And Core in drupal
+current
+drupal-8.*/sites
+drupal-8.*/files
+drupal-8.*/core
+drupal-8.*/modules
+drupal-8.*/profiles
+drupal-8.*/themes
+drupal-8.*/vendor
+drupal-base/sites/all/modules
+drupal-base/libraries
+drupal-base/sites/*/files/php/twig
+drupal-base/sites/*/files/css
+drupal-base/sites/*/files/js

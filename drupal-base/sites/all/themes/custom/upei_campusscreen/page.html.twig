@@ -1,0 +1,70 @@
+<div class="layout-container">
+
+  <header role="banner">
+	<div class="header_branding">{{ page.header_branding }}</div>
+	<div class="header_right">
+
+	</div>
+    {{ page.header_branding }}
+  </header>
+
+  {{ page.primary_menu }}
+
+{% if page.full_width_media %}
+<div id="full-width-media">
+  {{ page.full_width_media }}
+</div>
+{% endif %}
+{% if page.full_width_info %}
+<div id="full-width-info">
+  {{ page.full_width_info }}
+</div>
+{% endif %}
+
+  {{ page.breadcrumb }}
+
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+
+{% if page.top_sidebar_left or page.top_sidebar_right %}
+	<div class="region_top">
+		<div class="top-sidebar-left">
+			<div class="content">
+			{{ page.top_sidebar_left }}
+			</div>
+		</div>
+		<div class="top-sidebar-right">
+			<div class="content">
+			{{ page.top_sidebar_right }}
+			</div>
+                </div>
+	</div>
+{% endif %}
+
+    <div class="layout-content">
+      {{ page.content }}
+    </div>{# /.layout-content #}
+
+    {% if page.sidebar_first %}
+      <aside class="layout-sidebar-first" role="complementary">
+        {{ page.sidebar_first }}
+      </aside>
+    {% endif %}
+
+    {% if page.sidebar_second %}
+      <aside class="layout-sidebar-second" role="complementary">
+        {{ page.sidebar_second }}
+      </aside>
+    {% endif %}
+
+  </main>
+
+  {% if page.footer %}
+    <footer role="contentinfo">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+
+</div>{# /.layout-container #}

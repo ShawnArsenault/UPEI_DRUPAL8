@@ -1,0 +1,26 @@
+body{padding:1.5vw;}
+header{display:none;}
+
+#block-upei-campusscreen-page-title{display:none;}
+#block-upei-campusscreen-content{font-family:Open Sans;overflow:hidden;}
+.screen-header{overflow:hidden;}
+.screen-header .logo{width:25%;float:left;}
+#block-upei-campusscreen-content .logo img{width:15vw;display:block;}
+.screen-header .titlename{width:50%;display:inline-block;margin:0px auto;font-size:1.0vw;color:#8c2004;}
+.screen-header .titlename h1{margin-top:0.8vw;}
+
+.screen-header .time{width:25%;float:right;font-size:1.2vw;text-align:center;}
+
+.screen-content{overflow:hidden;}
+.screen-content .slideshow{width:74%;float:left;}
+.screen-content .slideshow img{max-width:100%;height:auto;}
+
+.screen-content .sidebar{width:25%;float:right;}
+#main_button{width:100% !important}
+.current-weather{text-align:center;
+-ms-transform: scale(1.5, 1.5); /* IE 9 */
+    -webkit-transform: scale(1.5, 1.5); /* Safari */
+    transform: scale(1.5, 1.5);
+}
+.current-weather img{display:block;float:left;}
+div[role=contentinfo]{display:none}

@@ -1,0 +1,26 @@
+name: UPEI / Main Theme
+description: The main starter drupal 8 test theme for UPEI.
+type: theme
+core: 8.x
+libraries:
+ - upei_maintheme/global-css
+ - upei_maintheme/js-datetime
+ - upei_maintheme/js-json
+stylesheets-remove:
+ - core/themes/stable/css/views/views.module.css
+ - core/themes/stable/css/system/components/align.module.css
+
+regions:
+  header_branding: 'Header Branding'
+  header_right: 'Header Right'
+  primary_menu: 'Primary Menu'
+  full_width_media: 'Full Width Media'
+  full_width_info: 'Full Width Info'
+  breadcrumb: 'Bread Crumb'
+  top_sidebar_left: 'Top Sidebar Left'
+  top_sidebar_right: 'Top Sidebar Right'
+  bottom_sidebar_left: 'Bottom Sidebar Left'
+  bottom_sidebar_right: 'Bottom Sidebar Right'
+  bottom: 'Bottom'
+  content: 'Main Content'
+  footer: 'Footer'
